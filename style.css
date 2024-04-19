@@ -1,0 +1,72 @@
+:root{
+    --white:#F1F1FB;
+    --black: black;
+    --lblue:#0A21C0;
+    --dblue:#050A44;
+    --dark:#2C2E3A;
+
+}
+
+*::selection{
+    background-color: var(--dark);
+    color: white;
+}
+
+@font-face {
+    font-family: main;
+    src: url('Assest/FuturaNowText-XBd.ttf');
+}
+
+@font-face {
+    font-family: fbold;
+    src: url('Assest/Gilroy-Black.ttf');
+}
+
+@font-face {
+    font-family: flight;
+    src: url('Assest/Gilroy-Regular.ttf');
+}
+
+.mainf{
+    font-family: main;
+}
+.fbold{
+    font-family: fbold;
+}
+
+.dblue{
+    color: var(--dblue);
+}
+.lblue{
+    color: var(--lblue);
+}
+.dark{
+    color: var(--darks);
+}
+
+body{
+    font-family: flight;
+}
+
+.normal{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+body[theme="black"]{
+    background-color: var(--black);
+}
+body[theme="black"] .section{
+    color: var(--white);
+}
+
+body[theme="white"]{
+    background-color: var(--white);
+}
+body[theme="cyan"] .section{
+    color: var(--black);
+}
+
+
+
+ /* Other Styles */
+
