@@ -1,5 +1,5 @@
 :root{
-    --white:#F1F1FB;
+    --white:#ffffff;
     --black: black;
     --lblue:#0A21C0;
     --dblue:#050A44;
@@ -69,4 +69,3 @@ body[theme="cyan"] .section{
 
 
  /* Other Styles */
-

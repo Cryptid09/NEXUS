@@ -9,49 +9,75 @@
 </head>
 <body theme="white">
     <div class="section w-full">
+
+        <!-- Navbar -->
         <div class="navbar flex justify-between w-[95%] mx-auto items-center py-3">
             <div class="logo mainf text-2xl tracking-[2px] select-none ">
                 NEXUS
             </div>
-            <ul class="flex gap-10 text-[1.1rem] select-none">
-                <li class="hover:font-semibold"><a href="">Home</a></li>
-                <li class="hover:font-semibold"><a href="">Notes</a></li>
-                <li class="hover:font-semibold"><a href="">Chat</a></li>
-                <li class="hover:font-semibold"><a href="">Help</a></li>
-            </ul>
+
+            <div class="px-1 py-1 flex gap-10">
+                <a href="" class="hover:font-semibold">Home</a>
+                <a href="" class="hover:font-semibold">Notes</a>
+                <a href="" class="hover:font-semibold">Chat</a>
+                <a href="" class="hover:font-semibold">Help</a>
+            </div>
+
             <div class="flex gap-5 text-[1.1rem] items-center select-none">
-                
-                <a href="" class="hover:font-semibold">Sign in</a>
-                <a href="" class="bg-[#0A21C0] text-white px-4 py-2 rounded-[25px] font-semibold">Contact Us  <span class="pl-1">&#8594;</span> </a>
+                <a href="" class="bg-[#0A21C0] text-white px-4 py-2 font-bold rounded">Sign in<span class="pl-1">&#8594;</span> </a>
             </div>
             
         </div>
 
-        <div class="page-1 w-[95%] mx-auto flex gap-10">
-            <div class="w-[50%] h-[90vh]">
-                <div class="pt-[4.5rem]">
-                    <div class="text-[4rem] font-semibold flex items-center gap-4 leading-[5rem]">
-                        <div class="w-[10rem] h-[4rem] overflow-hidden rounded-[10rem] -translate-y-1">
-                            <video src="/Assest//blue.mp4" autoplay loop class="w-full h-full object-cover">
-                            </video>
-                        </div>
-                    Igniting Minds</div>
-                    <h1 class="text-[4rem] font-semibold leading-[5rem]">
-                        Through Knowledge </h1>
-                        <h1 class="text-[4rem] font-semibold leading-[5rem]">
-                            Convergence</h1>
-                </div>
-                <p class="w-[70%] pt-[5rem] pl-[1rem]">
-                    The only way to discover the limits of the possible is to go beyond them into the impossible .
+        <!-- Page 1 -->
+        <div class="page-1 w-[95%] mx-auto">
+                    <div class="text-[3rem] font-semibold  flex items-center justify-center gap-4 leading-[3.2rem] flex-wrap mt-[4rem]">
+                    Igniting Minds Through 
+                    <div class="w-[6rem] h-[2rem] overflow-hidden rounded-full -translate-y-1">
+                        <video src="/Assest//blue.mp4" autoplay loop class="w-full h-full object-cover z-[-1]">
+                        </video>
+                    </div> 
+                    Knowledge Convergence</div>
+                <p class="w-full flex justify-center items-center pt-[0.5rem] mx-auto text-zinc-700">
+                    The only way to discover the limits of the possible is to go beyond them into the impossible
                 </p> 
-            </div>
-            
-            <div class="w-[50%] bg-blue-700 h-[90vh]">
 
-            </div>
+                <div class="flex justify-center mt-8">
+                    <span class="inline-block border border-zinc-500 rounded">
+                        <input type="text" placeholder="Search notes" class="bg-transparent w-[30rem] pl-3 outline-none">
+                        <button class="text-white bg-[#0A21C0] font-bold px-3 py-2">Search</button>
+                    </span>
+                </div>
+                <p class="text-center mt-2 font-semibold"><small>
+                    Popular Searches: 
+                    <span class="bg-[#0a22c03b] px-2 py-1 rounded-full mr-1">Physics</span>
+                    <span class="bg-[#0a22c03b] px-2 py-1 rounded-full mr-1">Dlcd</span>
+                    <span class="bg-[#0a22c03b] px-2 py-1 rounded-full ">oops</span>
+                </small>
+                </p>
+
+                <div class="flex justify-evenly mt-10">
+                    <div class="bg-[#0A21C0] w-[30%] h-[50vh] flex flex-col items-center justify-center gap-4 rounded">
+                        <i class="fa-solid fa-school text-white text-[5rem]"></i>
+                        <a href="" class="text-3xl font-semibold text-white">Explore Notes</a>
+                        <p class="text-center text-white px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, sunt rem rerum facere consectetur maxime?</p>
+                    </div>
+                    <div class="bg-[#0A21C0] w-[30%] h-[50vh] flex flex-col items-center justify-center gap-4 rounded">
+                        <i class="far fa-comments text-white text-[5rem]"></i>
+                        <a href="" class="text-3xl font-semibold text-white">Chat Now</a>
+                        <p class="text-center text-white px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, sunt rem rerum facere consectetur maxime?</p>
+                    </div>
+                    <div class="bg-[#0A21C0] w-[30%] h-[50vh] flex flex-col items-center justify-center gap-4 rounded">
+                        <i class="fa-solid fa-people-group text-white text-[5rem]"></i>
+                        <a href="" class="text-3xl font-semibold text-white">Build Community</a>
+                        <p class="text-center text-white px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, sunt rem rerum facere consectetur maxime?</p>
+                    </div>
+                </div>
         </div>
+
+        <div class="mt-10"></div>
 
     </div>
-    
+<script src="https://kit.fontawesome.com/46800e65dd.js" crossorigin="anonymous"></script>    
 </body>
 </html>
